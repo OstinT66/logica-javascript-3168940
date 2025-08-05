@@ -10,20 +10,23 @@ if (nota >= 5) {
 
 console.log(" estoy ", calificacion); */
 
-alert ( " control ");
 
-let nombre = (prompt ("Escriba su nombre"))
+// Condicionales en cadena
 
-alert (" estamos verificando")
+let nombre = (prompt ("Escriba su nombre"));
 
-alert (" escriba su edad")
+nombre = nombre.toLocaleLowerCase();
+
+if (nombre == "mario" || nombre == "carlos") {
+    alert(" Usted es VIP")
+     }else {
+        alert (" Ahora diganos su edad")
+     }
 
 let edad = (prompt ("escriba su edad"))
 
 if (edad < 18){
     alert (" menores de edad, no pasan")
 } else {
-    edad >= 18;
     alert ("pase sin problema")
 }
-
