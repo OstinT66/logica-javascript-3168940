@@ -259,7 +259,7 @@ if (peso > 50) {
 
 // ---------------------- EJERCICIO 12 ----------------------
 
-alert ("Debido a un decreto presidencial se consta del aumento del 10% a la nomina o pago del sueldo mínimo de los trabajadores, aqui se muestra el sueldo actualizado post-decreto")
+/* alert ("Debido a un decreto presidencial se consta del aumento del 10% a la nomina o pago del sueldo mínimo de los trabajadores, aqui se muestra el sueldo actualizado post-decreto")
 
 let sueldo= Number (prompt("Digite su sueldo"))
 
@@ -269,5 +269,39 @@ if (sueldo >0) {
     alert ("Este es el sueldo actual gracias al 10% decretado:" + sueldoActualizado)
 } 
 
+ */
 
+//------------------------------------------------------------------------------------------------------------------------
 
+// ---------------------- EJERCICIO 13 ----------------------
+
+// Declaramos un array vacío
+/* let datos = [];
+
+// Pedimos 3 datos al usuario
+datos[0] = prompt("Ingresa el primer nombre:");
+datos[1] = prompt("Ingresa el segundo nombre:");
+datos[2] = prompt("Ingresa el tercer nombre:");
+
+// Mostramos el contenido en consola
+console.log("Contenido del array:", datos);
+ */
+
+//------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------- EJERCICIO 14 ----------------------
+
+let nombre;
+let personas = [];
+
+// Ciclo que pide nombres hasta que el usuario escriba "salir"
+while (true) {
+    nombre = prompt("Ingresa un nombre (o escribe 'salir' para terminar):");
+    
+    if (nombre.toLowerCase() === "salir") {
+        break; // rompemos el ciclo
+    }
+    
+    personas.push(nombre); // guardamos el nombre en el array
+    console.log (nombre + "<br>"); // mostramos el nombre en la página
+}
