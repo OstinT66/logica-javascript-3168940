@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+<script src="app8.js"></script>
+    <div id="login">
+<form id="form">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="opcion">Opción:</label>
+  <select id="opcion" name="opcion">
+    <option value="" disabled selected>Selecciona Color</option>
+    <option value="red">Rojo</option>
+    <option value="green">Verde</option>
+    <option value="orange">Naranja</option>
+  </select>
+
+  <fieldset>
+    <legend>Selecciona un equipo:</legend>
+    <label>
+      <input type="radio" name="radioOpcion" value="Gatos" required> Gatos
+    </label>
+    <label>
+      <input type="radio" name="radioOpcion" value="Perros"> Perros
+    </label>
+    <label>
+      <input type="radio" name="radioOpcion" value="Mapaches"> Mapaches
+    </label>
+  </fieldset>
+
+  <button type="submit">Enviar</button>
+</form>
+    </div>
+
+    <div id="userPage">
+      <img id="img_equipo" src="..." alt="">
+      <h1 id="text_saludo">Hola usuario</h1>
+      <p>perteneces al equipo <span id="equipoUsuario"></span id="text_equipo"></p>
+
+    </div>
+
+    <p id="mensajeConfirmacion" style="display: none; text-align: center; margin-top: 15px; font-weight: bold; color: black;"></p>
+
+ <div style="text-align: center;"><button id="volver" type="button" >Volver</button>
+</div>
+</body>
+</html>
