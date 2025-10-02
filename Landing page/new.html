@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brunch Landing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Logo/logo_1.png" alt="InnunLogo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Spots</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Comunidad</a></li>
+        <li><a href="#">🔍</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cambiar-fondo">
+  <h2>Cambia el fondo</h2>
+  <button id="rojo">Rojo</button>
+  <button id="verde">Verde</button>
+  <button id="amarillo">Amarillo</button>
+  </section>
+
+ 
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Cómic Digital Interactivo</h1>
+      <p>Un proyecto formativo que combina narrativa, ilustración y experiencias transmedia.</p>
+    </div>
+    <img src="Imagenes/Arkana_2.jpeg" alt="skateboarding1" class="hero-img" />
+  </section>
+
+  <!-- QUOTE SECTION -->
+  <section class="quote">
+    <h3>“Mentiras mi voz, aún no ha muerto”</h3>
+    <p>– Elkin Ramirez</p>
+  </section>
+
+  <!-- WHY BRUNCH -->
+  <section class="why-skate">
+    <img src="Imagenes/Arkana.jpg" alt="brunch" />
+    <div class="text">
+      <h2>¿Por qué un cómic digital interactivo?</h2>
+      <ul>
+        <li>No es solo un cómic, es una experiencia donde la historia se expande más allá de la página.</li>
+        <li>La narrativa transmedia permite que cada lector explore diferentes caminos y puntos de vista</li>
+        <li>El proyecto fomenta la creatividad, el pensamiento crítico y el aprendizaje a través de la interacción</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skate-resist">
+  <img src="Imagenes/Arkana_3.png" alt="Skater en protesta urbana" />
+  <div class="text">
+    <h2>Historias como voz y resistencia</h2>
+    <p>Este proyecto de cómic digital interactivo representa una forma de resistencia creativa y cultural.  
+    A través del arte y lo transmedia, exploramos cómo las historias pueden cuestionar realidades, abrir nuevos mundos y dar voz a quienes no siempre son escuchados.</p>
+  </div>
+</section>
+
+  <!-- GALERIA SECTION -->
+  <section class="skate-community">
+  <h2>CGalería del Cómic</h2>
+  <p>Aquí puedes explorar algunos de los paneles y elementos visuales del cómic digital interactivo.  
+    Cada imagen es una puerta hacia la narrativa transmedia que conecta ilustración, tecnología y participación.</p>
+
+  <div class="gallery">
+    <img src="Imagenes/Arkana_4.png" alt="Skaters reunidos" />
+    <img src="Imagenes/Arkana_5.png" alt="Truco en grupo" />
+    <img src="Imagenes/Arkana_6.jpg" alt="Skater ayudando a otro" />
+  </div>
+
+  <!-- Lightbox -->
+<div id="lightbox">
+  <span id="cerrar">X</span>
+  <button id="prev"><</button>
+  <img id="imagenGrande" src="">
+  <button id="next">></button>
+</div>
+
+  <audio src="audio/Noiseferatu - Malpensante (Prod. Granuja) - Noiseferatu.mp3" controls autoplay loop></audio>
+</section>
+
+<section class="skate-manifiesto">
+  <h2 class="neon">Manifiesto del Proyecto</h2>
+  <p>
+    Creemos que contar historias es un acto de creación y resistencia.  
+    Este cómic digital interactivo es más que un producto:  
+    es un espacio de experimentación donde la narrativa se expande,  
+    conecta medios y da voz a nuevas formas de expresión.
+  </p>
+</section>
+
+<section class="cta-rebel">
+  <h2>Sé parte del proyecto</h2>
+  <p>Este cómic digital interactivo es una experiencia transmedia en construcción.  
+    Comparte tus ideas, participa en la narrativa y ayúdanos a darle vida a este universo.</p>
+  <a href="#" class="btn">Ser parte</a>
+</section>
+
+
+  <!-- CONTACT -->
+  <section class="contact-form">
+  <h2>Participa en el Proyecto.</h2>
+  <form>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+
+    <label for="email">Correo</label>
+    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
+
+    <label for="message">Mensaje</label>
+    <textarea id="message" name="message" placeholder="Cuéntanos tu idea o propuesta para el cómic" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+ <p id="respuesta"></p>
+</section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-signup">
+  <h2>Suscríbete al Proyecto</h2>
+  <p>Recibe avances exclusivos del cómic digital interactivo,  
+    noticias sobre la narrativa transmedia y oportunidades para participar en su desarrollo.</p>
+  <form>
+    <input type="email" placeholder="Tu correo electrónico" required />
+    <button type="submit">Unirme</button>
+  </form>
+</section>
+
+  <!-- FOOTER -->
+ <footer class="skate-footer">
+  <div class="footer-top">
+    <h2>ARKANA STUDIO</h2>
+    <p>Rueda libre. Vive fuerte. Deja marca.</p>
+  </div>
+
+  <div class="footer-social">
+    <a href="#" aria-label="Instagram">📷</a>
+    <a href="#" aria-label="Twitter">🐦</a>
+    <a href="#" aria-label="Discord">💬</a>
+  </div>
+
+  <button id="btnTop">⬆</button>
+
+  <div class="footer-bottom">
+    
+    <p>© 2025 Cómic Digital Interactivo Transmedia - Proyecto Formativo</p>
+  <p>Desarrollado como parte de un proceso académico y creativo.</p>
+  </div>
+</footer>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
